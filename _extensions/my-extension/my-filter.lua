@@ -1,5 +1,5 @@
 print("In filter")
-print(os.execute(""))
+print(os.execute("pwd"))
 
 util = require("util")
 
