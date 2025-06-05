@@ -1,0 +1,11 @@
+title: My-extension
+author: James Goldie
+version: 1.0.0
+quarto-required: ">=99.9.0"
+contributes:
+  filters:
+    - my-filter.lua
+  metadata:
+    project:
+      prerender: my-prerender.lua
+

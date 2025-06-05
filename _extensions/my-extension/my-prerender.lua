@@ -1,0 +1,10 @@
+print("In pre-render")
+print(os.execute(""))
+
+util = require("util")
+
+-- could also try:
+-- util = require("_extension.jimjam-slam.my-extension.util;_extension.my-extension.util")
+
+print(util.first_util())
+
