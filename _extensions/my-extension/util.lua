@@ -7,6 +7,6 @@ function second_util()
 end
 
 return {
-  first_util,
-  second_util
+  first_util = first_util,
+  second_util = second_util
 }
