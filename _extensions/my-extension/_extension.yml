@@ -7,5 +7,5 @@ contributes:
     - my-filter.lua
   metadata:
     project:
-      prerender: my-prerender.lua
+      pre-render: my-prerender.lua
 
