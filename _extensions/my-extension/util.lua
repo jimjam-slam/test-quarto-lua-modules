@@ -1,9 +1,9 @@
-function first_util()
-  print("Hello first_util!")
+local function first_util()
+  return "Hello first_util"
 end
 
-function second_util()
-  print("Hello second_util!")
+local function second_util()
+  return "Hello second_util"
 end
 
 return {
